@@ -1,0 +1,137 @@
+
+
+  
+
+  .dropbtn {
+    background-color: #CCC6F6;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ccc6f66e;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+.accordion{
+    margin: 60px auto;
+    width: 600px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #CCC6F6;
+    
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    color: #555;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+
+}
+
+.accordion input[type="radio"]:checked + label::before {
+    content: '-';
+}
+
+.articleSection {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 10rem auto 0 auto;
+}
+
+.collage-illustrations {
+    border-radius: 25px;
+}
+
+.form-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 820px;
+    height: 500px;
+    background-color: #F8F8FB;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba (0,0,0,0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}

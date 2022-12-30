@@ -1,8 +1,53 @@
-Body {
+body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-  
+  .mab {
+    position: relative;
+    background-color: #CCC6F6;
+    display: inline-flex;
+
+  }
+
+  .mab-btn {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  8px 12px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+  }
+
+  .mab-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  .mab-icon {
+    margin-right: 8px;
+  }
+
+  .mab-list {
+    position: absolute;
+    display: none;
+    top: 115%;
+    right: 0;
+    padding: 5px 0;
+    background: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .mab-list--visible {
+    display: initial;
+  }
+
+  .mab-btn-secondary {
+    width: 100%;
+    
+  }
+
 
   .dropbtn {
     background-color: #CCC6F6;
@@ -95,7 +140,7 @@ input[type="radio"] {
 }
 
 .accordion input[type="radio"]:checked + label::before {
-    content: '-';
+  content: '-';
 }
 
 .articleSection {

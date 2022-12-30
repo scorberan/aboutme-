@@ -40,6 +40,35 @@ function myFunction() {
     input.addEventListener("blur",blurFunc)
   });
 
+  // Multi-action btn 
+  //enable all menu btn
+
+  document.querySelectorAll(".mab").forEach(multiAction => {
+    const menuButton = multiAction.querySelector(".mab-btn-menu");
+    const list = multiAction.querySelector(".mab-list");
+
+   menuButton.addEventListener("click", () => {
+    list.classList.toggle("mab-list--visible");
+
+   });
+  });
+
+  //Hide all lists when clicking elsewhere on the page
+
+  document.addEventListener("click",() => {
+    const keepOpen = (
+      e.target.matches(".mab-list")
+     || e.target.matches(".mab-btn-menu")
+     || e.target.closest(".mab-btn-menu")
+    );
+
+
+    if (keepOpnen) return;
+    document.querySelectorAll(".mab-list").forEach(list => {
+      list.classList.remove("mab-list--visible");
+    });
+  });
+
 
 
 

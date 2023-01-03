@@ -1,5 +1,11 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px;
+  gap: 191px;
+  position: absolute;
 }
 
 h1 {
@@ -11,6 +17,16 @@ h1 {
  font-weight: extralight;
  font-size: 50px;
 }
+
+.tagName+menuBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 11px;
+  gap: 10px;
+}
+
 
 
 
@@ -102,63 +118,69 @@ h1 {
   
   .show {display: block;}
 
-.accordion {
-  max-width:400px ;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
-  border-radius: 5px;
-  overflow: hidden;
-  background: #CCC6F6;
-
-}
-.accordion-label, 
-.accordion-contect {
-  padding: 14px 20px;
-
+details{
+  width: 350px;
+  padding: 35px 27px 39px 36px;
+  border-radius: 25px;
+  background-color: #CCC6F6;
+  
+  box-shadow: 4px 4px 3px rgba (0,0,0,0.15);
 }
 
-.accordion-label {
-  display: block;
-  font-weight: 500;
+summary {
   cursor: pointer;
-  position: relative;
-  transition: background 0.1s;
-
 }
-
-.accordion-label:hover {
-  background: rgba(0, 0, 0, 0.05);
-
+summary h4 {
+  display: inline;
+  margin-left: 1rem;
+  font-size: 1.25rem;
 }
-
-.accordion-label:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
-  width: 12px;
-  height: 6px;
+details p {
+  margin-left: 1.75rem;
+  color: black;
  
 }
-
-.accordion-contect {
-  background-color: #ffffff;
-  line-height: 1.5;
-  font-size: 1rem;
-  display: none;
-
-}
-
-.accordion-input {
- display: none;
+details ul {
+  margin-left: 1.75rem;
+  color: black;
+  list-style-type: circle solid;
+  gap: 5px;
 
 }
 
-.accordion-input:checked ~ .accordion-contect {
-  display: block;
-
+.contentCard-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 56px 0px 0px;
+  gap: 84px;
 }
 
+.contentCard-botton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 56px 0px 0px;
+  gap: 84px;
+}
+
+.multiple-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 27px;
+  width: 449.08px;
+  height: 567px;
+  
+}
+
+.statement+img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
 
 .form-container {
   position: relative;

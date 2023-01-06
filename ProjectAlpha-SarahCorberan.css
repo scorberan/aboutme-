@@ -336,13 +336,17 @@ ol li:before {
   max-height: 50rem;
   background-color: #f1f1f1;
   border-radius: 20px;
-  box-shadow: 0 0 20px 1px rgba (0,0,0,0.1);
   z-index: 1000;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
 
+}
+.aboutMe-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 48px;
 }
 
 .contact-form {

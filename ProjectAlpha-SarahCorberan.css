@@ -608,17 +608,243 @@ textarea.input {
 }
 
 @media (max-width: 768px) {
+  
+  .container3 {
+    width: 698px;
+    margin-left: -22px;
+  }
+  .mab-btn {
+    padding: 4px 6px;
+  }
+
+  .container4 {
+   flex-direction: column;
+    margin-left: 5px;
+   
+    gap: 207px;
+    width: 480px;
+    height: 642px;
+    position: absolute;
+    top: -20px;
+
+  }
+
+  h1 {
+   font-weight: 800;
+   font-size: 32px;
+    
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-top: 5px;
+
+  }
+  .callToAction-button {
+    font-size: 16px;
+  }
+  .laddingPage-img {
+    margin-left: 693px;
+   margin-top: 19px;
+  }
+  .img-laddingPage {
+    width: 426px;
+    height: 581px;
+  }
+
+  .container2 {
+    flex-direction: column;
+    margin-left: -52px;
+    margin-bottom: -235px;
+    margin-top: 806px;
+  }
+  .aboutMe-title {
+    font-size: 30px;
+    margin: 12px;
+  }
+
+  details {
+    width: 604px;
+  }
+  .contentCard-top {
+    flex-direction: column;
+    margin-right: 634px;
+    gap: 48px;
+  }
+
+  .contentCard-botton {
+    flex-direction: column;
+    margin-right: 634px;
+    gap: 48px;
+  }
+
+  .container-img {
+    flex-direction: column;
+    margin-right: 690px;
+    margin-top: 48px;
+    margin-bottom: 124px;
+  }
+  .contentCard-img {
+    width: 542.08px;
+    height: 567px;
+  }
+  .container1 {
+    margin-left: 38px;
+    flex-direction: column;
+  }
+  .container1-p {
+    width: 664px;
+  }
+  .h2-article {
+    font-size: 24px;
+    width: 597px;
+  }
+  .article-text {
+    margin-right: -8px;
+  }
+
+  .img-illustration {
+    width: 591px;
+    height: 743px;
+  }
+  
+  .container {
+    margin-left: 22px;
+    padding: 1.5rem;
+  }
+  .input-container {
+    margin-left: 47px;
+  }
+  .input--containers-title {
+    margin-left: 50px;
+  }
+  .form-container {
+    margin-top: 711px;
+    width: 57.4%;
+    margin-left: -77px;
+    
+  }
+  .form {
+    max-height: 87rem;
+  }
+
+  .contact-info {
+    margin-left: 55px;
+  }
+
+ .contact-info:before {
+    display: none;
+ }
+
+ form,
+ .contact-info {
+    padding: 1.7rem 1.6rem;
+
+ }
+
+ .contact-text, 
+ .information,
+  .social-media p {
+   font-size: 1rem;
+ }
+
+ .contact-title {
+    font-size: 1.15rem;
+    margin-right: 135px;
+    margin-left: -76px;
+ }
+
+ .contact-text {
+    margin-right: 204px;
+    line-height: 1.5;
+    margin-right: 117px;
+ }
+
+ .contact-text-2 {
+  margin-right: 198px;
+ }
+ .social-media {
+  margin-left: 35px;
+ }
+
+ .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+ }
+
+ .icon {
+    width: 23px;
+ }
+ .input--containers-title {
+  font-size: 2rem;
+ }
+ .input {
+    padding: 0.45rem 1.2rem;
+    width: 70%;
+ }
+ .input-container {
+   width: 806px;
+ }
+
+ .input-container.textarea {
+    width: 758px;
+ }
+
+
+  .send-btn {
+    margin-top: 10px;
+   margin-left: 578px;
+  }
  
 }
+@media (max-width:481px) {
+  .contact-text {
+    margin-right: 169px;
+  }
+  .social-media {
+    margin-left: 39px;
+  }
+  .contact-title {
+    margin-right: 157px;
+  }
+}
+
 
 @media (max-width:320px) {
+  .form-container {
+    margin-top: 650px;
+  }
   .container {
     margin-left: 144px;
   }
   .contentCard-img {
     height: 495px;
   }
- 
+ .input--containers-title {
+  font-size: 1.5rem;
+  margin-left: 20px;
+ }
+ .input-container {
+  margin-left: 10px;
+ }
+ .contact-info .contact-title {
+  margin-right: 22px;
+  font-size: 1.5rem;
+ }
+ .contact-text {
+  margin-left: 28px;
+  font-size: 1rem;
+ }
+ .contact-text-2 {
+  margin-right: 86px;
+ }
+ .contact-info {
+  margin-left: -17px;
+ }
+ .social-media {
+  margin-left: -24px;
+ }
 } 
  
 
@@ -729,11 +955,15 @@ textarea.input {
     margin-left: 16px;
     padding: 1.5rem;
   }
+  .input--containers-title {
+    font-size: 1.5rem;
+    margin-left: 13px;
+  }
   .form-container {
-    margin-top: 667px;
+    margin-top: 683px;
     width: 40%;
     margin-left: -77px;
-    height: ;
+    
   }
   .form {
     max-height: 87rem;
@@ -755,18 +985,28 @@ textarea.input {
    font-size: 1rem;
  }
 
+ .contact-info .contact-title {
+  font-size: 1.5rem;
+ }
+
  .contact-title {
-    font-size: 1.15rem;
-    margin-right: 101px;
+    margin-right: 6px;
  }
 
  .contact-text {
-    margin-right: 115px;
+    margin-right: 87px;
     line-height: 1.5;
  }
 
  .contact-text-2 {
-  margin-right: 121px;
+  margin-right: 95px;
+ }
+ .contact-info {
+  margin-left: -19px;
+ }
+
+ .social-media {
+  margin-left: -30px;
  }
 
  .social-icons a {
@@ -785,6 +1025,7 @@ textarea.input {
  }
  .input-container {
    width: 528px;
+   margin-left: 3px;
  }
 
  .input-container.textarea {

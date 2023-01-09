@@ -133,6 +133,7 @@ h6 {
 
 .mab-btn-secondary {
  width: 100%;
+ text-decoration: none;
 }
 
 
@@ -300,7 +301,7 @@ ol li:before {
   font-weight: 700;
 }
 
-.contentCard-top {
+.contentCard {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -308,13 +309,7 @@ ol li:before {
   gap: 84px;
 }
 
-.contentCard-botton {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 56px 0px 0px;
-  gap: 84px;
-}
+
 
 
 
@@ -327,7 +322,8 @@ ol li:before {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 40px;
+  margin-left: 55px;
+
 }
 
 .form {
@@ -666,17 +662,13 @@ textarea.input {
   details {
     width: 604px;
   }
-  .contentCard-top {
+  .contentCard {
     flex-direction: column;
     margin-right: 634px;
     gap: 48px;
   }
 
-  .contentCard-botton {
-    flex-direction: column;
-    margin-right: 634px;
-    gap: 48px;
-  }
+  
 
   .container-img {
     flex-direction: column;
@@ -798,6 +790,7 @@ textarea.input {
   }
  
 }
+
 @media (max-width:481px) {
   .contact-text {
     margin-right: 169px;
@@ -811,9 +804,9 @@ textarea.input {
 }
 
 
-@media (max-width:320px) {
+@media (min-width:320px) {
   .form-container {
-    margin-top: 650px;
+    margin-top: 3px;
   }
   .container {
     margin-left: 144px;
@@ -909,17 +902,13 @@ textarea.input {
   details {
     width: 369px;
   }
-  .contentCard-top {
+  .contentCard {
     flex-direction: column;
     margin-right: 634px;
     gap: 48px;
   }
 
-  .contentCard-botton {
-    flex-direction: column;
-    margin-right: 634px;
-    gap: 48px;
-  }
+  
 
   .container-img {
     flex-direction: column;

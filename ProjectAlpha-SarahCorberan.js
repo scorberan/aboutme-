@@ -1,4 +1,4 @@
-//https://www.w3schools.com/howto/howto_js_collapsible.asp
+
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
@@ -55,19 +55,39 @@ function myFunction() {
 
   //Hide all lists when clicking elsewhere on the page
 
-  document.addEventListener("click",() => {
-    const keepOpen = (
+  document.addEventListener("click",(e) => {
+    const keepOpen = (e)
       e.target.matches(".mab-list")
      || e.target.matches(".mab-btn-menu")
      || e.target.closest(".mab-btn-menu")
-    );
+    ;
 
 
-    if (keepOpnen) return;
+    if(keepOpnen) return;
     document.querySelectorAll(".mab-list").forEach(list => {
       list.classList.remove("mab-list--visible");
     });
   });
+
+  document.querySelectorAll('[href^="#"]').forEach(menuButton => {
+    menuButton.addEventListener('click', function (event) {
+      event.preventDefault();
+      // esto es un id
+      const sectionId = this.getAttribute('href');
+      const sectionTopPosition = document.querySelector(sectionId).offsetTop;
+      window.scroll({
+        top: sectionTopPosition,
+        behavior: 'smooth'
+      });
+      
+    });
+  });
+
+  document.querySelector('#contact-us-form').addEventListener('submit', function(event){
+    event.preventDefault();
+    const successMessage = document.querySelector('#contact-us-form .form-success');
+    successMessage.classList.remove('hidden');
+  })
 
 
 

@@ -214,14 +214,14 @@ h3 {
 .contenedor-principal-contact {
   float: left;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
-  padding-left: 200px;
+  padding-left: 416px;
   align-content: center;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   width: 50%;
-  height: 500px;
+  gap: 261px;
   
 
 }
@@ -273,6 +273,13 @@ h3 {
   width: 35px;
   margin-right: 0.7rem;
 }
+
+.contact-imagen {
+  text-align: center!important;
+  width: 100%;
+  display: block;
+}
+
  
 
 

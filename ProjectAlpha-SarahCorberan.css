@@ -7,9 +7,13 @@ body {
 body * {
   box-sizing: border-box;
 }
+img {
+  width: 100%;
+}
 
 .container-main {
   display: flex;
+  justify-content: center;
   gap: 50px;
   margin-right: auto;
   margin-left: auto;
@@ -26,6 +30,7 @@ body * {
 }
 
 .section-img {
+  max-width: 500px;
   text-align: center;
   flex-grow: 1;
   width: 50%;
@@ -55,6 +60,7 @@ header p {
 }
  
 .mab-btn {
+  text-align: center;
   background: none;
   border: none;
   display: flex;
@@ -110,6 +116,8 @@ h1 {
 
 }
 .callToAction-button {
+  text-decoration: none;
+  color: black;
   background-color: #B6AFDF;
   font-size: 24px;
   padding: 12px 28px;
@@ -138,19 +146,17 @@ h2 {
   flex-direction: row;
 }
 
-.about-img {
-  max-width: 500px;
-}
+
 
 
 .section-about-img-wrapper {
-  max-width: 500px;
+  
   margin-left: auto;
   margin-right: auto;
 }
 
 .section-illustration-img-wrapper {
-  max-width: 540px;
+  
   margin-left: auto;
   margin-right: auto;
 }
@@ -291,6 +297,11 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+.email-font {
+  text-decoration: none;
+  color: black;
+}
 .social-media p {
   font-weight: 600;
 }
@@ -420,6 +431,12 @@ footer.container-main {
     width: 399px;
   }
 }
+@media (max-width:906px) {
+  .section-about-img-wrapper {
+    margin-top: 157px;
+  }
+
+}
 @media (max-width:899px) {
   .page-header {
     padding: 9px;
@@ -474,6 +491,11 @@ footer.container-main {
   h3 {
     font-size: 20px;
     font-weight: 800;
+  }
+}
+@media (max-width:502px) {
+  details {
+    width: 445px;
   }
 }
 @media (max-width:491px) {
@@ -536,6 +558,11 @@ footer.container-main {
     width: 321px;
   }
  
+}
+@media (max-width:330px){
+  details {
+    width: 288px;
+  }
 }
 @media (max-width:320px) {
   .callToAction-button {

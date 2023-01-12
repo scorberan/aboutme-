@@ -21,7 +21,7 @@
       || e.target.closest(".mab-btn-menu")
     );
     
-    if (keepOpnen) return;
+    if (keepOpen) return;
     document.querySelectorAll(".mab-list").forEach(list => {
       list.classList.remove("mab-list--visible");
     });

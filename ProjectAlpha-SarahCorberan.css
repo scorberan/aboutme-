@@ -146,28 +146,6 @@ h2 {
   flex-direction: row;
 }
 
-
-
-
-.section-about-img-wrapper {
-  
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section-illustration-img-wrapper {
-  
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-
-
-
 details{
   width: 350px;
   padding: 35px 27px 39px 36px;
@@ -249,10 +227,11 @@ ol li:before {
   font-weight: 700;
 }
 
-
-
-
-
+.section-about-img-wrapper {
+  
+  margin-left: auto;
+  margin-right: auto;
+}
 
 h3 {
   font-family: 'Playfair Display', serif;
@@ -271,7 +250,11 @@ h3 {
   border-radius: 34px;
 }
 
-
+.section-illustration-img-wrapper {
+  
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .container-info {
   max-width: 1000px;
@@ -302,6 +285,7 @@ h3 {
   text-decoration: none;
   color: black;
 }
+
 .social-media p {
   font-weight: 600;
 }
@@ -351,6 +335,7 @@ footer.container-main {
   font-size: 1rem;
   }
 }
+
 @media (max-width:1219px) {
   h1 {
     font-size: 40px;
@@ -383,6 +368,7 @@ footer.container-main {
   }
   
 }
+
 @media (max-width:1143px){
   details {
     width: 465px;
@@ -398,11 +384,13 @@ footer.container-main {
     margin-top: 250px;
   }
 }
+
 @media (max-width:1095px) {
   .section-illustration-img-wrapper {
     margin-top: 70px;
   }
 }
+
 @media (max-width:1065px) {
   .laddingPage-secondaryTitle {
     font-size: 20px;
@@ -414,6 +402,7 @@ footer.container-main {
     line-height: 1.6;
   }
 }
+
 @media (max-width:989px) {
   h1 {
     font-size: 32px;
@@ -431,12 +420,14 @@ footer.container-main {
     width: 399px;
   }
 }
+
 @media (max-width:906px) {
   .section-about-img-wrapper {
     margin-top: 157px;
   }
 
 }
+
 @media (max-width:899px) {
   .page-header {
     padding: 9px;
@@ -469,21 +460,28 @@ footer.container-main {
   }
  
 }
-@media (max-width:737px) {
+
+
+@media (max-width: 737px) {
+
   details {
     width: 595px;
   }
+  
 }
+
 @media (max-width:663px) {
   details {
     width:529px;
   }
 }
+
 @media (max-width:599px) {
   details {
     width: 480px;
   }
 }
+
 @media (max-width:529px) {
   body {
     padding: 20px;
@@ -493,11 +491,13 @@ footer.container-main {
     font-weight: 800;
   }
 }
+
 @media (max-width:502px) {
   details {
     width: 445px;
   }
 }
+
 @media (max-width:491px) {
   h2{
     font-size: 32px;
@@ -512,11 +512,13 @@ footer.container-main {
     width: 31px;
   }
 }
+
 @media (max-width:480px) {
   body {
     padding:12px
   }
 }
+
 @media (max-width:448px) {
   details {
     width: 389px;
@@ -547,6 +549,7 @@ footer.container-main {
     font-size: 16px;
   }
 }
+
 @media (max-width:398px) {
   details {
     width: 342px;

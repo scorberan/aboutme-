@@ -14,15 +14,14 @@
 
   //Hide all lists when clicking elsewhere on the page
 
-  document.addEventListener("click",(e) => {
-    const keepOpen = (e)
-      e.target.matches(".mab-list")
-     || e.target.matches(".mab-btn-menu")
-     || e.target.closest(".mab-btn-menu")
-    ;
-
-
-    if(keepOpnen) return;
+  document.addEventListener("click",e => {
+    const keepOpen = (
+        e.target.matches(".mab-list")
+      || e.target.matches(".mab-btn-menu")
+      || e.target.closest(".mab-btn-menu")
+    );
+    
+    if (keepOpnen) return;
     document.querySelectorAll(".mab-list").forEach(list => {
       list.classList.remove("mab-list--visible");
     });

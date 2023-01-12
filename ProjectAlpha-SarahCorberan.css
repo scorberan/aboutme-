@@ -7,6 +7,7 @@ body {
 body * {
   box-sizing: border-box;
 }
+
 img {
   width: 100%;
 }
@@ -322,7 +323,7 @@ footer.container-main {
   justify-content: center;
 }
 
-@media (max-width:1368px){
+@media (max-width:1368px) {
   .article-text {
     font-size: 16px;
     line-height: 2;
@@ -356,7 +357,7 @@ footer.container-main {
   h1 {
     font-size: 40px;
   }
-  .laddingPage-secondaryTitle{
+  .laddingPage-secondaryTitle {
     font-size: 24px;
   }
   
@@ -369,7 +370,7 @@ footer.container-main {
   
 }
 
-@media (max-width:1143px){
+@media (max-width:1143px) {
   details {
     width: 465px;
   }
@@ -562,7 +563,7 @@ footer.container-main {
   }
  
 }
-@media (max-width:330px){
+@media (max-width:330px) {
   details {
     width: 288px;
   }

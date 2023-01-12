@@ -159,16 +159,19 @@ details{
 summary {
   cursor: pointer;
 }
+
 summary h4 {
   display: inline;
   margin-left: 1rem;
   font-size: 1.25rem;
 }
+
 .h5-list {
   margin-left: 100px;
   font-size: 1.1rem;
 
 }
+
 ul {
   display: block;
   margin-left: -10px;
@@ -194,7 +197,6 @@ ul li:before {
   width: 12px;
   border-radius: 50%;
 }
-
 
 ol {
   counter-reset: item;
